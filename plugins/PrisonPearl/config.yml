@@ -1,0 +1,45 @@
+free_world: world
+free_respawn: true
+free_tppearl: true
+damagelog_min: 3
+damagelog_ticks: 600
+ppkill_enabled: true
+prison_stealing: true
+prison_musthotbar: true
+summon_damage_radius: 20
+summon_damage_ticks: 20
+summon_damage_amt: 2
+prison_world: world_the_end
+prison_resetbed: false
+chunk_delay: 1200
+ppsummon_clear_inventory: leavepearls
+ppreturn_kills: false
+prison_motd:
+- You are trapped in this bleak and endless world
+- by a prison pearl.
+- Type /pplocate to locate your pearl.
+save_ticks: 2400
+upkeep:
+  resource: 263
+  quantity: 8
+  distance: 0
+ignore_feed:
+  days: 14
+  hours: 0
+  seconds: 0
+feed_delay: 72000000
+autofree_worldborder: true
+deny_pearls_worlds:
+- world_nether
+mysql:
+  enabled: false
+  dbname: PrisonPearl
+  host: localhost
+  username: bukkit
+  password: ''
+  port: 3306
+coal_cost_should_be: 0
+prison_grant_perms:
+- RandomSpawn.exclude
+prisonerstealing_enabled: true
+resetbed_enable: false

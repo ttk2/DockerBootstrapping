@@ -1,0 +1,63 @@
+configuration_file_version: 1
+
+Comment: default values might be a bit crazy.. They are intended for testing. Change them.
+
+
+Comment: kick_thresholds field ignores non-numerical characters and only reads three numbers separated, 
+Comment: non-numericals are there only to make configuration file more readable.
+Comment: Use 0 as an amount of seconds when you don't want to kick people.
+
+kick_thresholds:
+  - When 101 to 500  players online kick after 150 seconds
+  - When 76 to 100  players online kick after 300 seconds
+  - When 51 to 75  players online kick after 900 seconds
+  - When 1  to 50  players online kick after 7200 seconds
+
+  
+  
+Comment: warnings filed reads the first number, the rest is text to be sent to a player
+  
+warnings:
+  - 1 §4AFK Plugin - You'll be kicked in 1 second
+  - 2 §4AFK Plugin - You'll be kicked in 2 seconds
+  - 3 §4AFK Plugin - You'll be kicked in 3 seconds
+  - 4 §4AFK Plugin - You'll be kicked in 4 seconds
+  - 5 §4AFK Plugin - You'll be kicked in 5 seconds
+  - 10 §4AFK Plugin - You'll be kicked in 10 seconds
+  - 60 §4AFK Plugin - You'll be kicked in 1 minute
+  - 300 §4AFK Plugin - You'll be kicked in 5 minutes
+  - 600 §4AFK Plugin - You'll be kicked in 10 minutes
+  - 1800 §4AFK Plugin - You'll be kicked in 30 minutes
+  - 3600 §4AFK Plugin - You'll be kicked in 1 hour
+  
+  
+Comment: Yay, rainbows! :)  
+kick_message: §cYou §6were §ekicked §adue §9to in§5activity
+
+
+Comment: Various strings. 
+
+Str0: "Pluging is not running"
+Str1: "AFK Player Garbage Collector has been enabled"
+Str2: "AFK Player Garbage Collector has been disabled"
+Str3: "§a%d players online: kicking after %sof being AFK"
+Str4: "§a%d-%d players online: kicking after %sof being AFK"
+Str5: "New configuration accepted, plugin enabled"
+Str6: "New configuration rejected, plugin disabled"
+Str7: "Plugin disabled"
+Str8: "List of %d most inactive players:"
+Str9: "%s last interacted on the server %sago"
+Str10: "Previously defined threshold getting redefined in %s"
+Str11: "Configuration file error: %s"
+Str12: "Configuration file incomplete - plugin doesn't know when to kick players when there are %d players online"
+Str13: "Error: Inconsistency in number of players detected"
+Str14: "%s kicked for being AFK for %s"
+
+
+Comment: Add player Account IDs (UUID) here to exempt them from the AFK checks
+immune_accounts:
+ - 41648fcd-13ee-4725-b0b8-fd9033bea95e
+ - 6303fd2a-5210-4063-b27c-e6c87cc961a1
+ - 8326bc56-1ed9-40ff-8f24-46bf3e300e51
+ - 6c697fb2-b773-4e43-b8c6-a87a54513c11
+ - 5058c25a-1435-444d-88c2-d129c1245d30

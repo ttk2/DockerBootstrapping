@@ -1,0 +1,8 @@
+groups:
+  enable: true
+sql:
+  dbname: minecraft
+  hostname: localhost
+  password: ''
+  port: 3306
+  username: 'minecraft'

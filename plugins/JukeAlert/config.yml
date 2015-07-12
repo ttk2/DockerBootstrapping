@@ -1,0 +1,16 @@
+mysql:
+  username: minecraft
+  host: localhost
+  password: ''
+  database: minecraft
+  prefix: ''
+  port: 3306
+settings:
+  defaultCuboidSize: 11
+  logsPerPage: 10
+  daysFromLastAdminVisitForLoggedSnitchCulling: 28
+  daysFromLastAdminVisitForNonLoggedSnitchCulling: 28
+  allowTriggeringLevers: true
+  togglerestartgroupcheck: false
+mercury:
+  broadcastallservers: false

@@ -1,0 +1,26 @@
+permissions:
+  log-players: false
+  backends:
+    sql:
+      driver: mysql
+      uri: mysql://localhost/bukkit
+      user: bukkit
+    file:
+      file: permissions.yml
+      type: file
+  backend: file
+  superperms:
+    parent-nodes: true
+    enable: true
+    strict-mode: false
+  createUserRecords: false
+  allowOps: false
+  debug: false
+  basedir: plugins/PermissionsEx
+  user-add-groups-last: false
+  informplayers:
+    changes: false
+multiserver:
+  use-netevents: true
+updater: true
+alwaysUpdate: false
