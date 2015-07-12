@@ -3,8 +3,8 @@ permissions:
   backends:
     sql:
       driver: mysql
-      uri: mysql://localhost/bukkit
-      user: bukkit
+      uri: mysql://localhost/minecraft
+      user: minecraft
     file:
       file: permissions.yml
       type: file
