@@ -1,0 +1,22 @@
+mysql:
+  username: minecraft
+  password: ''
+  host: localhost
+  database: minecraft
+  port: 3306
+  prefix: ''
+  savesPerDay: 192
+BastionBlock:
+  material: SPONGE
+  effectRadius: 10
+  startScaleFactor: 100
+  finalScaleFactor: 0.5
+  warmUpTime: 172800000
+  maxBreaksPerMinute: 30
+  erosionRatePerDay: 0
+  destroyOnRemove: false
+  blocksToErode: -1
+  EnderPearls:
+    preventEnderPearl: true
+    scaleFac: 1
+    requireMaturity: true
